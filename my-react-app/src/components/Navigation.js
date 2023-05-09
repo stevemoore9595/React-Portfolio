@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
+// import NavTabs from './NavTabs';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Navigation() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -25,7 +27,7 @@ export default function Navigation() {
 
   return (
     <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
   );

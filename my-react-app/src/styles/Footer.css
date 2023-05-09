@@ -1,0 +1,35 @@
+.footer {
+    min-height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 3px;
+    background: #343a40;
+  }
+  
+  .copy {
+    text-align: center;
+    font-size: 14pt;
+   margin-left: 50px;
+    color: #99aeba;
+  }
+/* 
+  .gitHub {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #99aeba;
+  } */
+  .gitHub a{
+    /* position: absolute ; */
+    text-align: right;
+    font-size: 14pt;
+    /* bottom: 0;
+    left: 200px;
+    right: 0; */
+    text-decoration: none;
+    margin-left: 400px;
+    margin-top: 10px;
+    color: #99aeba;
+  }
