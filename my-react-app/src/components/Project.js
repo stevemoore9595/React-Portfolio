@@ -6,7 +6,7 @@ function Project({ project }) {
         <img
           src={require(`../images/${image}`)}
           alt={name}
-          style= {{width:300, height:300, objectFit: "cover"}}
+          style= {{width:250, height:250, objectFit: "cover"}}
           className=""
         />
         <div className="">
